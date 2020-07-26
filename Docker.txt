@@ -1,0 +1,38 @@
+Docker:
+
+what was the challenge?
+	1.Compatability/Dependency
+	2.Long set up time of required s/w
+	3.Different dev/text/prod evironment.
+	
+How to solve this problem:
+	1.containerize application.
+	2.run each application solely in seperate container.
+	
+So what is container?
+	isolated environment with processing with different network/mounts.
+	
+	shares same OS karnel(OS in Linux).
+	
+	Stack will be like below:
+	
+	-----------------------------------
+	|Application+   |  Application+   |
+	|Lib+dependency |  Libs+Dependency| 
+	-----------------------------------
+				  Docker
+	-----------------------------------
+				   OS
+	-----------------------------------
+	       Hardware Infrasturcture
+	-----------------------------------
+	
+	
+	
+	
+DockerHub: 
+	Central Repo for Docker;
+
+Docker Image:
+	Package or template to create one or more container.
+	
