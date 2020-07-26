@@ -36,3 +36,15 @@ DockerHub:
 Docker Image:
 	Package or template to create one or more container.
 	
+In windows docker installed in Liux VM.
+
+Docker Cmd:
+
+docker version
+docker images
+docker run ubuntu
+docker run -it ubuntu
+docker stats
+docker system df
+docker ps -aq(all running docker container)
+docker system prune
