@@ -20,9 +20,9 @@ So what is container?
 	|Application+   |  Application+   |
 	|Lib+dependency |  Libs+Dependency| 
 	-----------------------------------
-		Docker
+	          Docker Engine
 	-----------------------------------
-		    OS
+              OS
 	-----------------------------------
 	       Hardware Infrasturcture
 	-----------------------------------
