@@ -1,0 +1,31 @@
+#run ubuntu in docker:
+1.docker run -it ubuntu
+2.docker ps -aq
+
+#Linnux file System Lab
+1.cd home
+2.ls -l 					-->gives in all data in list format.
+3.touch file1 file2 file3 	-->create multiple files.
+4.mkdir dirA                -->make empty directory.
+5.mkdir .dirB               -->make hidden directory.
+6.ls -al                    -->see both hidden and unhidden files & directory.
+7.mkdir -p dirG/dirH/dirJ   -->create inside directory
+8.cd dirG/dirH/dirJ
+9.../../../
+10.apt-get update && apt-get install -y vim--> install vim editor always as root user.
+11.vim file1
+12.press i
+13.edit file
+14.press esc
+15.:wq
+16 cat file1                --> to file the file context
+17.cp file1 file2           --> copy file context for file1 to file2
+18.cp file2 dirA            --> copy file in dirA
+17.mv file3 dirA            --> cut file3 and paste in dirA
+18.mv dirA dirN             --> rename of dirA to dirN
+19.rm -rf dirB              --> remove forcefully directory dirB and inside diecory also.
+20.head file1
+21.tail file2
+22.more file1
+23.history					--> All executed cmd. 
+
