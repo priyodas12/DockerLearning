@@ -149,6 +149,7 @@ docker system prune
 #service docker status
 #docker info
 
+#service docker start(for AWS/Cloud docker engine initially)
 
 6.to start container
 
