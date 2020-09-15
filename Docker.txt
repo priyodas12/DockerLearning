@@ -69,12 +69,51 @@ Limitation:
 	2.cross platform compatability.
 	
 	
+Docker Deamon:
+	1.runs on host os
+	
+	2.responsible for running containers to manges docker services
+	
+	3.can communicate with other deamons
+
+Docker client:(through CLI):
+
+	1.docker users can intaract with docker through a client
+	
+	2.docker client uses commands and REST apis to communicate with docker deamon.
+	
+	3.when a client runs any sers command on the docker client terminal the client terminal sends these docker commands to docker deamon.
+	
+	4.can communicate with other docker deamon.
+	
+Docker Host:
+	
+	1.Docker host is used to provide an environment to execute and run applications.
+	
+	2.It conatains the docker deamon,images,conatainers,networks and storages.
+	
+
 	
 DockerHub: 
-	Central Repo for Docker;
 
+	Central Repo for Docker;
+	
+	storages of docker image.
+
+	Public Registry:
+	Private Registry:
+	
 Docker Image:
+	
 	Package or template to create one or more container.
+	
+Docker container:
+
+	Docker container holds the entire package that is needed to run the application.
+	
+	containers are like virtual machine.
+	
+	images becomes container when the run on docker
 	
 In windows docker installed in Liux VM.
 
