@@ -171,5 +171,9 @@ docker system prune
 
 #docker rm <container-name>
 
+10.check which version of os running
+
+#cat /etc/os-release
+
 
 
