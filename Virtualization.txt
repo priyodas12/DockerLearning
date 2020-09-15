@@ -1,0 +1,5 @@
+Virtualization:
+
+	It is the technique of splitting a physical resource into logical resource as we want, eg:CPU,Memory.
+	
+	
