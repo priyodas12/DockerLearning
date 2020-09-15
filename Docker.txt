@@ -1,5 +1,21 @@
 Docker:
 
+	Docker is an open source centralized platform designed to create, deploy and run application.
+	
+	Docker uses container on the host OS to run applications.it allows applications to use the same linux kernel as system on the host computer rather than creating a whole virtual OS.
+	
+	we can install docker on any OS but docker engine runs natively on linux distribution.
+	
+	Docker written in google go laguage.
+	
+	Docker is a tool that performs OS level virtualization also known as containerization.
+	
+	before docker many users faces problem that a particular code is running in developer's system but not in the users system.
+	
+	docker was first relased in marcj 2013.
+	
+	Docker is a set of platform as a service that uses OS levele virtualization where as VMWare uses Hardwarelevel Virtualization.
+
 what was the challenge?
 	1.Compatability/Dependency
 	2.Long set up time of required s/w
@@ -48,3 +64,6 @@ docker stats
 docker system df
 docker ps -aq(all running docker container)
 docker system prune
+
+
+
