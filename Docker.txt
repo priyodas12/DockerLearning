@@ -43,6 +43,30 @@ So what is container?
 	       Hardware Infrasturcture
 	-----------------------------------
 	
+Advantages of Docker:
+	
+	1.No Pre allocation of RAM
+	
+	2.CI efficiency->docker enables you ro build a container image and use that same image across every step of the deployment process.
+	
+	3.less cost
+	
+	4.light weight
+	
+	5.can run on physical H/W ,Virtual H/W or on cloud
+	
+	5.you can re-use the image
+	
+	6.it takes very less time to create container.
+	
+	
+Limitation:
+
+	1.both dev and test OS must be same then image will work.
+	
+	likewise dev has created in Ubuntu and testing using centos then it will not work.
+	
+	2.cross platform compatability.
 	
 	
 	
