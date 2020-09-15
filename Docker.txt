@@ -128,5 +128,46 @@ docker system df
 docker ps -aq(all running docker container)
 docker system prune
 
+1. to see all images presents in your local
+
+#docker images
+
+2.to find out images in docker hub
+
+#docker search <S/W name>
+
+3.to download images from docker hub to local machine;
+
+#docker pull <S/W name>
+
+4.to give name to container(-i=intractive mode,t=terminal)
+
+#docker run -it --name <any name of container> <S/W name> /bin/bash
+
+5.to check service is strated or not
+
+#service docker status
+
+
+6.to start container
+
+#docker start <container-name>
+
+7.to see all container(ps=process status)
+
+#docker ps -a
+
+#docker ps (only give running containers)
+
+
+8.to stop container
+
+#docker stop <container-name>
+
+
+9.to delete container
+
+#docker rm <container-name>
+
 
 
