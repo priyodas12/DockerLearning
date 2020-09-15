@@ -2,4 +2,20 @@ Virtualization:
 
 	It is the technique of splitting a physical resource into logical resource as we want, eg:CPU,Memory.
 	
+Hypervisor:
+	software or frameware that creates and run virtual machine.called also Virtual Machine Manager.
 	
+	Type 1 Hypervisor:(frameware type)
+	VMware ESXi
+	
+	Architechture:
+	Hardware->hypervisor->VM->OS
+	
+	Enterprise application
+	
+	Type 2 Hypervisor:(software type)VMware work station,Microsoft virtual PC
+	
+	Architechture:
+	(Hardware->Host OS->Hypervisor->VM->Guest OS)
+	
+	Dev/Testing purpose;
