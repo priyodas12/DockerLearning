@@ -147,6 +147,7 @@ docker system prune
 5.to check service is strated or not
 
 #service docker status
+#docker info
 
 
 6.to start container
