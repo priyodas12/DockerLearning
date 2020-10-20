@@ -1,1 +1,7 @@
+
 Docker_Udemy:
+
+1.[root@ip-172-31-34-239 ec2-user]# yum install docker
+2.[root@ip-172-31-34-239 ec2-user]# service docker start
+3.[root@ip-172-31-34-239 ec2-user]# docker version
+4.
